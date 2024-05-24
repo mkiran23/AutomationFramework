@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="API Test Suite" guice-stage="QA">
+  <test name="Phoenix API Tests">
+    <include groups ="sanity"/>
+   <packages>
+    <package name ="com.api.tests" />
+    
+   </packages>
+  </test> 
+</suite> 
